@@ -14,7 +14,7 @@ class ExpenseItem extends StatelessWidget {
         child: Column(
           children: [
             Text(expense.title), // need styling
-            const SizedBox(height: 4)
+            const SizedBox(height: 4),
             Row(
               children: [
                 Text('\$${expense.amount.toStringAsFixed(2)}'),
